@@ -54,7 +54,7 @@
 
 
       .partB {
-        background: linear-gradient(to right, rgb(22, 117, 141) 0%, rgb(48, 131, 120) 100%);
+        background: linear-gradient(to right, rgb(28, 139, 167) 0%, rgb(52, 185, 123) 100%);
         padding: 12.5%;
         width: 75%;
         color: white;
@@ -66,7 +66,7 @@
       }
 
       .partB-about, .partB-list {
-        line-height: 1.5em;
+        line-height: 2em;
         font-size: 1.5em;
         margin-left: 60%;
         margin-bottom: 5%;
@@ -81,7 +81,7 @@
       .partC-title {
         margin-bottom: 10%;
         font-size: 3em;
-        color: rgb(212, 177, 130);
+        color: rgb(202, 160, 104);
       }
 
       .partC-list {
@@ -99,9 +99,37 @@
       }
 
       .partC-head {
+        font-style: italic;
         width: 75%;
+
       }
 
+      .partD {
+        background: linear-gradient(to right, rgb(207, 194, 79) 0%, rgb(216, 114, 74) 100%);
+        padding-left: 12.5%;
+        padding-right: 12.5%;
+        padding-top: 2%;
+        padding-bottom: 2%;
+        width: 75%;
+        color: white;
+        display: flex;
+      }
+
+      .partD-title {
+        font-size: 3em;
+        margin-right: 30%;
+      }
+
+      .partD-links {
+        margin-top: 1%;
+        font-size: 2em;
+      }
+
+      .partD-links span {
+        font-weight: bold;
+        padding-right: 15%;
+        padding-left: 15%;
+      }
       
 
     </style>
@@ -110,7 +138,7 @@
     <div class="container">
       
       <div class="partA">
-        <div class="partA-menu"><span>About</span><span>Projects</span><span>Slideshow</span><span>Contact</span></div>
+        <div class="partA-menu"><span>About</span><span>Projects</span><span>Contact</span></div>
         <div class="partA-header">Mubariz Afzal</div>
         <div class="partA-intro">Exploring Computer Science.</div>
       </div>
@@ -133,12 +161,19 @@
       <div class="partC-title">Projects</div>
       <hr>
       <div class="partC-list">
-        <div class="partC-head"><em>MirrorDromes</em></div>
+        <div class="partC-head">MirrorDromes</div>
         <span class="partC-desp">JavaScript program that extracts mirrored portions of a given text input.</span>
           
       </div>
       <hr>
       <div class="partC-end">More to come!</div>
+    </div>
+
+    <div class="partD">
+      <div class="partD-title">Contact</div>
+      <div class="partD-links">
+        <span>GitHub</span><span>LinkedIn</span>
+      </div>
     </div>
   </body>
 </html>
