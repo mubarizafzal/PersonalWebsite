@@ -116,21 +116,33 @@
       }
 
       .partD-title {
+        width: 40%;
         font-size: 3em;
-        margin-right: 30%;
       }
 
       .partD-links {
         margin-top: 1%;
+        width: 50%;
         font-size: 2em;
       }
 
       .partD-links span {
+        margin-right: 15%;
         font-weight: bold;
-        padding-right: 15%;
-        padding-left: 15%;
       }
-      
+
+      a {
+        color: inherit;
+        text-decoration: none;
+      }
+      a:hover {
+        filter: brightness(65%);
+      }
+
+      .partD a:hover {
+        filter: none;
+        color: rgb(49, 56, 58);
+      }
 
     </style>
   </head>
@@ -138,12 +150,12 @@
     <div class="container">
       
       <div class="partA">
-        <div class="partA-menu"><span>About</span><span>Projects</span><span>Contact</span></div>
+        <div class="partA-menu"><span><a href="#about">About</a></span><span><a href="#projects">Projects</a></span><span><a href="#contact">Contact</span></a></div>
         <div class="partA-header">Mubariz Afzal</div>
         <div class="partA-intro">Exploring Computer Science.</div>
       </div>
     </div>
-    <div class="partB">
+    <div class="partB" id="about">
       <div class="partB-title">About</div>
       <div class="partB-about">A computer science student learning what I can day by day.</div>
       <div class="partB-list">
@@ -157,11 +169,11 @@
       </div>
     </div>
   
-    <div class="partC">
+    <div class="partC" id="projects">
       <div class="partC-title">Projects</div>
       <hr>
       <div class="partC-list">
-        <div class="partC-head">MirrorDromes</div>
+        <div class="partC-head"><a target="_blank" href="https://mubarizafzal.github.io/MirrorDromes/">MirrorDromes</a></div>
         <span class="partC-desp">JavaScript program that extracts mirrored portions of a given text input.</span>
           
       </div>
@@ -169,10 +181,10 @@
       <div class="partC-end">More to come!</div>
     </div>
 
-    <div class="partD">
+    <div class="partD" id="contact">
       <div class="partD-title">Contact</div>
       <div class="partD-links">
-        <span>GitHub</span><span>LinkedIn</span>
+        <span><a target="_blank" href="https://github.com/mubarizafzal">GitHub</a></span> <span><a target="_blank" href="https://www.linkedin.com/in/mubarizafzal/">LinkedIn</a></span>
       </div>
     </div>
   </body>
