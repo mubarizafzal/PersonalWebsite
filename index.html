@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8">
     <title>Mubariz Afzal</title>
-    <link href='https://fonts.googleapis.com/css?family=DM Sans' rel='stylesheet'>
+    <link href='https://fonts.googleapis.com/css?family=DM%20Sans' rel='stylesheet'>
     <link rel="stylesheet" type="text/css" href="style.css">
     <style>
       body {
@@ -17,17 +17,20 @@
         margin: auto;
       }
       .partA {
-        color:gray;
+        font-weight: 600;
+        color:rgb(168, 168, 168);
         margin-bottom: 45%;
       }
       .partA-header {
         font-size: 4em;
         margin-top: 10%;
+        letter-spacing: 2px;
 
         background: -webkit-linear-gradient(#3180c4 ,#31c47b);
         background: -moz-linear-gradient(#3180c4 ,#31c47b);
         background: -o-linear-gradient(#3180c4 ,#31c47b);
         background: linear-gradient(#3180c4 ,#31c47b);
+
 
         -webkit-background-clip: text;
         -moz-background-clip: text;
@@ -44,17 +47,19 @@
       }
 
       div.partA-menu span {
-        margin-left: 5%;
+        margin-left: 8%;
       }
 
       .partA-intro {
         margin-top: 3%;
-        font-size: 1.3em;
+        font-size: 1.5em;
+        
+        word-spacing: 0.3em;
       }
 
 
       .partB {
-        background: linear-gradient(to right, rgb(28, 139, 167) 0%, rgb(52, 185, 123) 100%);
+        background: linear-gradient(to right, #c25c5c 0% ,#d3a878 100%);
         padding: 12.5%;
         width: 75%;
         color: white;
@@ -62,23 +67,28 @@
       }
 
       .partB-title {
+        font-weight: 600;
+        letter-spacing: 2px;
         font-size: 3em;
       }
 
       .partB-about, .partB-list {
         line-height: 2em;
         font-size: 1.5em;
-        margin-left: 60%;
+        margin-left: 55%;
         margin-bottom: 5%;
       }
 
       .partC {
         padding-top: 10%;
+        color: rgb(148, 148, 148);
         margin: auto;
         width: 75%;
       }
 
       .partC-title {
+        letter-spacing: 2px;
+        font-weight: 600;
         margin-bottom: 10%;
         font-size: 3em;
         color: rgb(202, 160, 104);
@@ -88,24 +98,23 @@
         display: flex;
         padding: 3%;
         font-size: 1.5em;
-        color: gray;
       }
 
       .partC-end {
-        color: gray;
         font-size: 1.5em;
         padding: 10%;
+        margin-top: 10%;
         text-align: center;
       }
 
       .partC-head {
-        font-style: italic;
+        text-decoration: underline;
         width: 75%;
 
       }
 
       .partD {
-        background: linear-gradient(to right, rgb(207, 194, 79) 0%, rgb(216, 114, 74) 100%);
+        background: linear-gradient(to right,#c43131 0%, #31bac4 100%);
         padding-left: 12.5%;
         padding-right: 12.5%;
         padding-top: 2%;
@@ -116,6 +125,8 @@
       }
 
       .partD-title {
+        letter-spacing: 2px;
+        font-weight: 600;
         width: 40%;
         font-size: 3em;
       }
@@ -136,7 +147,7 @@
         text-decoration: none;
       }
       a:hover {
-        filter: brightness(65%);
+        filter: brightness(60%);
       }
 
       .partD a:hover {
@@ -151,7 +162,7 @@
     <div class="container">
       
       <div class="partA">
-        <div class="partA-menu"><span><a href="#about">About</a></span><span><a href="#projects">Projects</a></span><span><a href="#contact">Contact</span></a></div>
+        <div class="partA-menu"><span><a href="#about">About</a></span><span><a href="#projects">Projects</a></span><span><a href="#contact">Contact</a></span></div>
         <div class="partA-header">Mubariz Afzal</div>
         <div class="partA-intro">Exploring Computer Science.</div>
       </div>
@@ -165,7 +176,7 @@
           <li>Databases</li>
           <li>Cloud Computing</li>
           <li>Web Development</li>
-          <li>Making useful stuff :)</li>
+          <li>Computer Vision</li>
         </ul>
       </div>
     </div>
