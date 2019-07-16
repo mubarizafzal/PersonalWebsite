@@ -23,7 +23,7 @@
         font-weight: 600;
         letter-spacing: 1px;
         color:rgb(148, 148, 148);
-        margin-bottom: 45%;
+        margin-bottom: 50%;
       }
 
       .partA-header {
@@ -51,6 +51,10 @@
       }
 
       div.partA-menu span {
+        background: linear-gradient(to bottom, #91b2dd 0%, #2f719c 100%);
+        color: white;
+        padding: 5px 12px 5px 12px;
+        border-radius: 3px;
         margin-left: 8%;
       }
 
@@ -94,7 +98,7 @@
         font-weight: 600;
         margin-bottom: 10%;
         font-size: 3em;
-        color: rgb(202, 160, 104);
+        color: rgb(202, 150, 82);
       }
 
       .partC-list {
@@ -154,8 +158,13 @@
         color: inherit;
         text-decoration: none;
       }
+      
       a:hover {
         filter: brightness(60%);
+      }
+
+      .partA a:hover {
+        filter: brightness(80%);
       }
 
       .partD a:hover {
@@ -170,7 +179,7 @@
     <div class="container">
       
       <div class="partA">
-        <div class="partA-menu"><span><a href="#about">About</a></span><span><a href="#projects">Projects</a></span><span><a href="#contact">Contact</a></span></div>
+        <div class="partA-menu"><a href="#about"><span>About</span></a><a href="#projects"><span>Projects</span></a><a href="#contact"><span>Contact</span></a></div>
         <div class="partA-header">Mubariz Afzal</div>
         <div class="partA-intro">Exploring Computer Science.</div>
       </div>
