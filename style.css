@@ -63,7 +63,6 @@ body {
 }
 
 
-
 .footer-border {
   font-size: 0;
 
@@ -124,18 +123,10 @@ a {
 
 .projects-title {
   margin-top: 3%;
-
-  font-weight: bold;
+  color: #31a754;
 }
 
 .projects-desp {
   margin-top: 10%;
   margin-bottom: 5%;
-
-}
-
-.projects-box-text {
-  width: 50%;
-  margin-right: 5%;
-  
 }
