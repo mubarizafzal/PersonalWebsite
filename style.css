@@ -84,7 +84,7 @@ body {
 
 .title {
   font-weight: bold;
-
+  font-size: 0.9em;
   margin: 2rem;
 
 }
@@ -122,6 +122,7 @@ a {
 }
 
 .projects-title {
+  font-size: 1.2em;
   margin-top: 3%;
   color: #31a754;
 }
