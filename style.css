@@ -1,8 +1,6 @@
-
 html {
   font-size: 14px;
   background-color: #f5f5f5;
-  
 
 }
 
@@ -80,6 +78,7 @@ body {
 
 .projects {
   text-align: left;
+  
 }
 
 .title {
@@ -129,9 +128,11 @@ a {
   font-size: 1.2em;
   margin-top: 3%;
   color: #3186a7;
+  
 }
 
 .projects-desp {
   margin-top: 10%;
   margin-bottom: 5%;
+  
 }
