@@ -1,7 +1,7 @@
 
 html {
   font-size: 14px;
-  background-color: #f5f5f5;
+  background-color: #ffffff;
 
 }
 
@@ -84,16 +84,17 @@ body {
 
 .title {
   font-weight: bold;
-  font-size: 0.9em;
+  font-size: 1.0em;
   margin: 2rem;
+  margin-top: 3rem;
 
 }
 
 .title span {
-  background: -webkit-linear-gradient(#48c478, #aac706ab);
-  background: -moz-linear-gradient(#48c478, #aac706ab);
-  background: -o-linear-gradient(#48c478, #aac706ab);
-  background: linear-gradient(#48c478, #aac706ab);
+  background: -webkit-linear-gradient(#cf7474, #eb8f27d9);
+  background: -moz-linear-gradient(#cf7474, #eb8f27d9);
+  background: -o-linear-gradient(#cf7474, #eb8f27d9);
+  background: linear-gradient(#cf7474, #eb8f27d9);
  
   color: white;
 
