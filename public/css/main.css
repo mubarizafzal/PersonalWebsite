@@ -1,92 +1,46 @@
 html {
-  font-size: 14px;
-  background-color: #ffffff; }
+  font-family: 'DM Sans';
+  font-size: 26px; }
 
 body {
-  margin: 0%;
-  padding: 0%;
-  font-size: 2rem;
-  font-family: 'DM Sans'; }
+  margin: 0;
+  padding: 0; }
 
-.container {
-  margin: auto;
-  text-align: center;
-  width: 70%; }
+.name {
+  margin-top: 1rem;
+  margin-left: 1rem;
+  color: #28926f;
+  font-size: 1.5rem; }
 
-.front-text {
-  margin-top: 2%; }
-
-.front-title {
-  margin-top: 5%;
-  font-size: 2em;
-  font-family: "Lexend Deca";
-  background: -webkit-linear-gradient(#2d72ac, #3dc566);
-  background: -moz-linear-gradient(#2d72ac, #3dc566);
-  background: -o-linear-gradient(#2d72ac, #3dc566);
-  background: linear-gradient(#2d72ac, #3dc566);
-  -webkit-background-clip: text;
-  -moz-background-clip: text;
-  -o-background-clip: text;
-  background-clip: text;
-  color: transparent; }
-
-.footer {
-  margin-top: 3%;
-  color: #eaeaea;
-  background-color: #272727;
-  padding-bottom: 8%; }
-
-.footer-links {
-  margin-top: 2%;
-  margin-left: 10%; }
-
-.footer-border {
-  font-size: 0; }
-
-.front-links {
-  margin-top: 2%; }
-
-.about {
-  text-align: left; }
-
-.projects {
-  text-align: left; }
-
-.title {
-  font-weight: bold;
-  font-size: 1.0em;
-  margin: 2rem;
-  margin-top: 3rem; }
-
-.title span {
-  background: -webkit-linear-gradient(#cf7474, #eb8f27d9);
-  background: -moz-linear-gradient(#cf7474, #eb8f27d9);
-  background: -o-linear-gradient(#cf7474, #eb8f27d9);
-  background: linear-gradient(#cf7474, #eb8f27d9);
+.intro-card {
+  margin-top: 1rem;
   color: white;
-  padding: 0.75rem 2rem 0.75rem 2rem;
-  border-radius: 0.5rem; }
+  background: #4e4e92;
+  padding: 5rem;
+  width: 14rem;
+  text-align: center; }
 
-.body {
-  margin-top: 6%;
-  font-size: 0.7em;
-  width: 55%; }
+.projects-card {
+  float: right;
+  width: 30rem;
+  padding: 2rem;
+  color: white;
+  background: #587e99 linear-gradient(0deg, #487771 0%, rgba(55, 171, 255, 0) 100%); }
 
-.projects-list {
-  font-size: 0.7em;
-  margin-top: 5%; }
+.projects-card-intro {
+  margin-left: 4rem;
+  margin-right: 4rem; }
 
-.projects-box {
-  display: flex; }
+.projects-card-binding {
+  position: absolute;
+  color: white;
+  margin-top: 2rem;
+  width: 70%;
+  left: 0;
+  background: black;
+  padding: 2rem; }
 
-a {
-  color: inherit; }
-
-.projects-title {
-  font-size: 1.2em;
-  margin-top: 3%;
-  color: #3186a7; }
-
-.projects-desp {
-  margin-top: 10%;
-  margin-bottom: 5%; }
+.projects-card-desc {
+  margin-left: 4rem;
+  margin-right: 4rem;
+  margin-top: 8rem; }
