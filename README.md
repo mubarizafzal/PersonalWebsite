@@ -1,3 +1,3 @@
-# mubarizafzal.github.io
+# mubarizafzal.com
 
-Personal website built using GitHub Pages and simple HTML and CSS: [mubarizafzal.github.io](https://mubarizafzal.github.io)
+Personal website built with HTML and CSS using an Nginx server on a Google Cloud VM.
