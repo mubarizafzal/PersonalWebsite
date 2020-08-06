@@ -1,23 +1,29 @@
 html {
   font-family: 'DM Sans';
-  font-size: 26px; }
+  font-size: 26px;
+  background: #dfdfdf; }
 
 body {
   margin: 0;
   padding: 0; }
 
 .name {
-  margin-top: 1rem;
-  margin-left: 1rem;
-  color: #28926f;
-  font-size: 1.5rem; }
+  color: white;
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+  letter-spacing: 1px;
+  font-weight: bold; }
 
 .intro-card {
+  margin: auto;
+  margin-bottom: 2rem;
   margin-top: 1rem;
   color: white;
-  background: #4e4e92;
-  padding: 5rem;
-  width: 14rem;
+  background: #6599be linear-gradient(0deg, #429489 0%, rgba(55, 171, 255, 0) 100%);
+  padding: 2rem 4rem 4rem 4rem;
+  width: 24rem;
+  border-radius: 20px;
+  box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
   text-align: center; }
 
 .projects-card {
@@ -25,22 +31,27 @@ body {
   width: 30rem;
   padding: 2rem;
   color: white;
-  background: #587e99 linear-gradient(0deg, #487771 0%, rgba(55, 171, 255, 0) 100%); }
+  border-radius: 20px;
+  box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+  background: #be6565 linear-gradient(0deg, #944242 0%, rgba(55, 171, 255, 0) 100%); }
 
 .projects-card-intro {
   margin-left: 4rem;
-  margin-right: 4rem; }
+  margin-right: 4rem;
+  margin-top: 1rem; }
 
 .projects-card-binding {
   position: absolute;
   color: white;
+  border-radius: 20px;
+  box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
   margin-top: 2rem;
   width: 70%;
   left: 0;
-  background: black;
+  background: #9b928a;
   padding: 2rem; }
 
 .projects-card-desc {
   margin-left: 4rem;
   margin-right: 4rem;
-  margin-top: 8rem; }
+  margin-top: 10rem; }
