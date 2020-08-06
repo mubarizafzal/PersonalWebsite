@@ -1,8 +1,17 @@
 
+/*
+  - images
+  - links
+  - slide in
+*/
+
 html {
-  font-family: 'DM Sans';
+  font-family: 'Lexend Deca';
   font-size: 26px;
   background: rgb(223, 223, 223);
+  //background:  rgb(223, 223, 223) linear-gradient(45deg, #bbb1a5 0%, rgba(55,171,255,0) 100%);
+
+  //background-image: url(../img/1.jpg);
 }
 
 body {
@@ -25,11 +34,12 @@ body {
   margin-bottom: 2rem;
   margin-top: 1rem;
   color: white;
-  background:  #6599be linear-gradient(0deg, #429489 0%, rgba(55,171,255,0) 100%);
+  background:  #85a7c0 linear-gradient(0deg, #6b948e 0%, rgba(55,171,255,0) 100%);
+  //background-image: url(../img/1.jpg);
   padding: 2rem 4rem 4rem 4rem;
   width: 24rem;
   border-radius: 20px;
-  box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+  box-shadow: 0 0px 0px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
   text-align: center;
 }
 
@@ -44,25 +54,38 @@ body {
 }
 
 .projects-card-intro {
-  margin-left: 4rem;
-  margin-right: 4rem;
+  margin-left: 3rem;
+  margin-right: 3rem;
   margin-top: 1rem;
 }
 
 .projects-card-binding {
+  font-family: monospace;
   position: absolute;
   color: white;
   border-radius: 20px;
-  box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+  box-shadow: 0 8px 8px 0 rgba(0, 0, 0, 0.15), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   margin-top: 2rem;
   width: 70%;
   left: 0;
-  background:  #9b928a;
+  text-align: right;
+  background:  #c79494 linear-gradient(0deg, #a07979 0%, rgba(55,171,255,0) 100%);
   padding: 2rem;
 }
 
+.projects-card-img {
+  margin-top: 9rem;
+  width: 24rem;
+  height: 14rem;
+  border-radius: 25px;
+  margin-left: 3rem;
+}
+
 .projects-card-desc {
-  margin-left: 4rem;
-  margin-right: 4rem;  
-  margin-top: 10rem;
+  margin-left: 3rem;
+  margin-right: 3rem;  
+  margin-top: 1rem;
+  padding: 1rem;
+  border-radius: 20px;
+  background: rgba(182, 182, 182, 0.4);
 }
