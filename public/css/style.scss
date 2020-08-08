@@ -2,7 +2,9 @@
 /*
   - images
   - links
+  - blog temp page
   - slide in
+  - navigating links on left collumn
 */
 
 html {
@@ -47,7 +49,7 @@ body {
 .left-collumn {
   position: fixed;
   top: 0;
-  background: #727472 linear-gradient(40deg, #939ea3 0%, rgb(62, 101, 129) 100%);
+  background:linear-gradient(40deg, #4b5357 0%, rgb(62, 101, 129) 100%);
   height: 100vh;
   z-index: 10;
   width: 8rem;
@@ -79,7 +81,7 @@ body {
 }
 
 .projects-card-binding {
-  font-family: monospace;
+  font-family: 'Fira Mono';
   position: absolute;
   color: white;
   border-radius: 20px;
@@ -87,9 +89,31 @@ body {
   margin-top: 2rem;
   width: 70%;
   left: 0;
-  text-align: right;
   background:  #94c4c7 linear-gradient(0deg, #5a84bb 0%, rgba(55,171,255,0) 100%);
   padding: 2rem;
+}
+
+.binding-content {
+  display: flex;
+  justify-content: space-between;
+  margin-left: 8rem;
+
+}
+
+.binding-label {
+  font-weight: bold;
+}
+
+.binding-title {
+  margin-right: 3.5rem;
+}
+
+.binding-link {
+  top: 1.5rem;
+  font-size: 2rem; 
+  color: white; 
+  position: absolute;
+  margin-left: 1.5rem;
 }
 
 .projects-card-img {
@@ -101,6 +125,7 @@ body {
 }
 
 .projects-card-desc {
+  font-family: 'DM Sans';
   margin-left: 2rem;
   margin-right: 2rem;  
   margin-top: 1rem;
