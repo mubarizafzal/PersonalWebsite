@@ -57,7 +57,30 @@ body {
 
 .left-collumn-link {
   color: white;
-  margin-top: 3rem;
+  margin-top: 7vh;
+}
+
+.left-collumn-divider {
+  border-bottom: solid;
+  border-color: white;
+  margin: 10vh 3rem 10vh 3rem;
+}
+
+.left-collumn-nav {
+  width: 1rem;
+  margin: auto;
+  color: white;
+  text-decoration: underline;
+  margin-bottom: 4vh;
+}
+
+.left-collumn-nav a {
+  color: white;
+  text-decoration: none;
+}
+
+.left-collumn-nav a:hover {
+  color: rgb(129, 169, 221);
 }
 
 .projects-card {
