@@ -3,11 +3,12 @@
   - links
   - blog temp page
   - slide in
+  - add gifs?
   - navigating links on left collumn
 */
 html {
   font-family: 'Lexend Deca';
-  font-size: 22px;
+  font-size: 20px;
   background: #dfdfdf; }
 
 body {
@@ -50,7 +51,7 @@ body {
 
 .projects-card {
   float: right;
-  margin-right: 4rem;
+  margin-right: 3rem;
   width: 30rem;
   padding: 2rem;
   color: white;
