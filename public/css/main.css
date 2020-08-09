@@ -84,7 +84,7 @@ body {
   color: white;
   border-radius: 20px;
   box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
-  background: #be6565 linear-gradient(0deg, #944242 0%, rgba(55, 171, 255, 0) 100%); }
+  background: linear-gradient(0deg, #854747 0%, #aa4848 100%); }
 
 .projects-card-intro {
   margin-left: 2rem;
@@ -100,7 +100,7 @@ body {
   margin-top: 2rem;
   width: 70%;
   left: 0;
-  background: #94c4c7 linear-gradient(0deg, #5a84bb 0%, rgba(55, 171, 255, 0) 100%);
+  background: linear-gradient(0deg, #517bb3 0%, #87c2c5 100%);
   padding: 2rem; }
 
 .binding-content {
