@@ -1,12 +1,9 @@
 
 /*
-  - images
-  - links
   - slide in
   - add gifs?
   - footer
-  - navigating links on left collumn
-
+  
   - post about pictures
   - post about learning curves
 */
@@ -62,6 +59,16 @@ body {
   margin-top: 7vh;
 }
 
+.left-collumn-link a {
+  color: white;
+  text-decoration: none;
+}
+
+
+.left-collumn-link a:hover {
+  color: rgb(129, 169, 221);
+}
+
 .left-collumn-divider {
   border-bottom: solid;
   border-color: white;
@@ -88,6 +95,7 @@ body {
 .projects-card {
   float: right;
   margin-right: 3rem;
+  margin-bottom: 4rem;
   width: 30rem;
   padding: 2rem;
   color: white;
