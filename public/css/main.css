@@ -1,10 +1,9 @@
 /*
-  - slide in
   - add gifs?
   - footer
   - screen responsiveness
-  - gradient experiment
   
+  - begin blog
   - post about pictures
   - post about learning curves
 */
@@ -27,6 +26,9 @@ body {
   font-weight: bold; }
 
 .intro-card {
+  position: relative;
+  margin-top: -12rem;
+  top: -12rem;
   font-family: 'Fira Mono';
   margin: auto;
   margin-bottom: 1rem;
@@ -104,7 +106,7 @@ body {
   box-shadow: 0 8px 8px 0 rgba(0, 0, 0, 0.15), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   margin-top: 2rem;
   width: 70%;
-  left: 0;
+  left: -60rem;
   background: linear-gradient(0deg, #977e56 0%, #eac5a0 100%);
   padding: 2rem; }
 
