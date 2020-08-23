@@ -1,8 +1,17 @@
 
 html {
-  font-size: 22px;
+  font-size: 18px;
   font-family: monospace;
-  color: white;
-  background-color: rgb(204, 180, 113);
+  color: rgb(0, 0, 0);
+  background-color: rgb(255, 255, 255);
   text-align: center;
+}
+
+body {
+  margin: 0;
+}
+
+#container {
+  width: 100%;
+  height: 100%;
 }
