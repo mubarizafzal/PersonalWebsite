@@ -9,7 +9,7 @@ var w = $("#container").innerWidth();
 var h = $("#container").innerHeight();
 
 
-const numPoints = 40;
+const numPoints = 20;
 
 
 var points = [[0,0],[0,h],[w,0],[w,h]];
@@ -38,11 +38,10 @@ var canvas = document.getElementById("container");
 
 $("document").ready(function () {
   for (var i = 0; i < triangles.length; i += 3) {
-    var randNum = Math.floor(Math.random() * 30 + 200);
+    var randNum = Math.floor(Math.random() * 30 + 210);
     var p0 = triangles[i];
     var p1 = triangles[i + 1];
     var p2 = triangles[i + 2];
-    console.log(randNum);
     var poly = makeSVG('polygon', {points: `${getX(p0)},${getY(p0)} ${getX(p1)},${getY(p1)} ${getX(p2)},${getY(p2)}`, fill: `rgb(${randNum},${randNum},${randNum})`});
     canvas.appendChild(poly);
   }

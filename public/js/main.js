@@ -1,5 +1,4 @@
 
-console.log('hello');
 
 $("document").ready(function () {
   
@@ -16,13 +15,14 @@ function makeSVG (tag, attrs) {
   return el;
 }
 
-var w = $(".container").innerWidth();
-var h = $(".container").innerHeight();
+var w, h;
+
+w = $(".container").innerWidth();
+h = $(".container").innerHeight();
 
 $("#back").css("height", h);
 
-
-const numPoints = 25;
+const numPoints = 30;
 
 
 var points = [[0,0],[0,h],[w,0],[w,h]];
@@ -51,11 +51,10 @@ var canvas = document.getElementById("back");
 
 $("document").ready(function () {
   for (var i = 0; i < triangles.length; i += 3) {
-    var randNum = Math.floor(Math.random() * 20 + 220);
+    var randNum = Math.floor(Math.random() * 25 + 210);
     var p0 = triangles[i];
     var p1 = triangles[i + 1];
     var p2 = triangles[i + 2];
-    console.log(randNum);
     var poly = makeSVG('polygon', {points: `${getX(p0)},${getY(p0)} ${getX(p1)},${getY(p1)} ${getX(p2)},${getY(p2)}`, fill: `rgb(${randNum},${randNum},${randNum})`});
     canvas.appendChild(poly);
   }
