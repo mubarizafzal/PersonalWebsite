@@ -17,8 +17,13 @@ body {
 }
 
 polygon {
-  stroke: black;
-  stroke-width: 2px;
-  fill: white;
+  stroke: rgb(255, 255, 255);
+  stroke-width: 1px;
   //fill-rule: evenodd;
+}
+
+p {
+  position: absolute;
+  top: 0;
+  margin: 4rem;
 }

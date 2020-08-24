@@ -12,7 +12,6 @@
 html {
   font-family: 'Lexend Deca';
   font-size: 20px;
-  background: rgb(223, 223, 223);
 }
 
 @media only screen and (max-width: 1400px) {
@@ -20,9 +19,28 @@ html {
     font-size: 17px;
   }
 }
+
+
 body {
   margin: 0;
   padding: 0;
+}
+
+#back {
+  width: 100%;
+}
+
+polygon {
+  stroke: rgb(255, 255, 255);
+  stroke-width: 2px;
+}
+
+.container {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  background: rgba(223, 223, 223, 0);
+  // a is 0 to not show old background
 }
 
 .name {
