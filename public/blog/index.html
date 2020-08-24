@@ -6,11 +6,15 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
     <script src="https://unpkg.com/delaunator@4.0.1/delaunator.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <link rel="icon" type="image/png" sizes="48x48" href="../icons/favicon.ico">
   </head>
   <body>
-    <canvas id="container">
-    </canvas>
+    <svg id="container">
+      <polygon points="0,0 100,100 50,200"/>
+      <polygon points="300,300 150,500 550,200"/>
+      <polygon points="693,524 557,595 648,708"></polygon>
+    </svg>
     <script src="./js/main.js"></script>
   </body>
 </html>
