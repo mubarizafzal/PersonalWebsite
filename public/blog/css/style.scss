@@ -1,16 +1,36 @@
+/*
+  TODO:
+
+  - arrows on bottom right to see articles/preview slide in 
+
+  - chistian
+  - learning curves
+  - leadership
+
+
+*/
+
 
 html {
-  font-size: 18px;
+  font-size: 20px;
   font-family: monospace;
   color: rgb(0, 0, 0);
   text-align: center;
 }
 
-body {
-  margin: 0;
+
+@media only screen and (max-width: 1400px) {
+  html {
+    font-size: 17px;
+  }
 }
 
-#container {
+body {
+  margin: 0;
+  overflow-y: hidden;
+}
+
+#triangulation {
   width: 100%;
   height: 100vh;
 }
@@ -21,10 +41,79 @@ polygon {
   //fill-rule: evenodd;
 }
 
-#root {
+#container {
+  display: flex;
   width: 100%;
   height: 100vh;
-  background:  linear-gradient(40deg, rgba(34, 122, 172, 0.452) 0%, rgba(13, 184, 56, 0.4) 100%); 
+  background:  linear-gradient(40deg, rgba(34, 122, 172, 0.452) 0%, rgba(30, 145, 30, 0.479) 100%); 
   position: absolute;
   top: 0;
+}
+
+.main-content {
+  width: 25rem;
+  margin: auto;
+  margin-top: 0rem;
+  display: block;
+}
+
+.header {
+  padding: 4rem;
+  margin-top: 4rem;
+  background: white;
+}
+
+.desc {
+  padding: 4rem;
+  margin-top: 4rem;
+  background: white;
+}
+
+
+.left-collumn {
+  background: linear-gradient(40deg, #4b5357 0%, rgb(41, 71, 94) 100%);
+  height: 100vh;
+  z-index: 10;
+  width: 8rem;
+  border-right: groove;
+  border-color: white;
+  text-align: center;
+}
+
+.left-collumn-link {
+  color: white;
+  margin-top: 9vh;
+}
+
+.left-collumn-link a {
+  color: white;
+  text-decoration: none;
+}
+
+
+.left-collumn-link a:hover {
+  color: rgb(129, 169, 221);
+}
+
+.left-collumn-divider {
+  border-bottom: solid;
+  border-color: white;
+  margin: 10vh 3rem 10vh 3rem;
+}
+
+.left-collumn-nav {
+  width: 1rem;
+  margin: auto;
+  color: white;
+  text-decoration: underline;
+  margin-bottom: 4vh;
+}
+
+.left-collumn-nav a {
+  color: white;
+  text-decoration: none;
+}
+
+.left-collumn-nav a:hover {
+  color: rgb(129, 169, 221);
 }

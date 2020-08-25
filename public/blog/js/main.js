@@ -34,7 +34,7 @@ function getY(i) {
   return (points[i][1]);
 }
 
-var canvas = document.getElementById("container");
+var canvas = document.getElementById("triangulation");
 
 $("document").ready(function () {
   for (var i = 0; i < triangles.length; i += 3) {
