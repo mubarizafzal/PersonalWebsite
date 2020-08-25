@@ -38,7 +38,7 @@ var canvas = document.getElementById("container");
 
 $("document").ready(function () {
   for (var i = 0; i < triangles.length; i += 3) {
-    var randNum = Math.floor(Math.random() * 30 + 210);
+    var randNum = Math.floor(Math.random() * 45 + 180);
     var p0 = triangles[i];
     var p1 = triangles[i + 1];
     var p2 = triangles[i + 2];

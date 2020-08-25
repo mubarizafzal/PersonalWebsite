@@ -3,7 +3,6 @@ html {
   font-size: 18px;
   font-family: monospace;
   color: rgb(0, 0, 0);
-  background-color: rgb(255, 255, 255);
   text-align: center;
 }
 
@@ -17,13 +16,15 @@ body {
 }
 
 polygon {
-  //stroke: rgb(143, 127, 96);
+  //stroke: rgb(255, 255, 255);
   stroke-width: 1px;
   //fill-rule: evenodd;
 }
 
-p {
+#root {
+  width: 100%;
+  height: 100vh;
+  background:  linear-gradient(40deg, rgba(34, 122, 172, 0.452) 0%, rgba(13, 184, 56, 0.4) 100%); 
   position: absolute;
   top: 0;
-  margin: 4rem;
 }
