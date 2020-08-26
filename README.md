@@ -1,3 +1,3 @@
 # mubarizafzal.com
 
-Personal website built with HTML and SASS, with an Nginx server on a Google Cloud VM.
+Personal website built using HTML/SASS/JQuery, with an Nginx server on a Google Cloud VM.
