@@ -24,7 +24,7 @@ body {
 
 .name {
   color: white;
-  font-size: 1.5rem;
+  font-size: 1.8rem;
   margin-bottom: 2rem;
   font-weight: bold; }
 
@@ -37,7 +37,7 @@ body {
   margin-bottom: 1rem;
   margin-top: 1rem;
   color: white;
-  background: linear-gradient(34deg, #5b7fc5 0%, #5fc2b6 100%);
+  background: linear-gradient(34deg, #339ec2 0%, #2d529d 100%);
   padding: 2rem 4rem 2rem 4rem;
   width: 24rem;
   border-radius: 20px;
@@ -94,7 +94,7 @@ body {
   color: white;
   border-radius: 20px;
   box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
-  background: linear-gradient(0deg, #4e9a7c 0%, #598d61 100%); }
+  background: linear-gradient(0deg, #76a3a4 0%, #72a4b4 100%); }
 
 .projects-card-intro {
   margin-left: 2rem;
@@ -110,7 +110,7 @@ body {
   margin-top: 2rem;
   width: 70%;
   left: -60rem;
-  background: linear-gradient(0deg, #806c4e 0%, #eccba9 100%);
+  background: linear-gradient(0deg, #644e80 0%, #eca9a9 100%);
   padding: 2rem; }
 
 .binding-content {
