@@ -38,11 +38,15 @@ var canvas = document.getElementById("triangulation");
 
 $("document").ready(function () {
   for (var i = 0; i < triangles.length; i += 3) {
-    var randNum = Math.floor(Math.random() * 45 + 180);
+    var spread = 65;
+    var lightness = 160;
+    var randNum1 = Math.floor(Math.random() * spread + lightness);
+    var randNum2 = Math.floor(Math.random() * spread + lightness);
+    var randNum3 = Math.floor(Math.random() * spread + lightness);
     var p0 = triangles[i];
     var p1 = triangles[i + 1];
     var p2 = triangles[i + 2];
-    var poly = makeSVG('polygon', {points: `${getX(p0)},${getY(p0)} ${getX(p1)},${getY(p1)} ${getX(p2)},${getY(p2)}`, fill: `rgb(${randNum},${randNum},${randNum})`});
+    var poly = makeSVG('polygon', {points: `${getX(p0)},${getY(p0)} ${getX(p1)},${getY(p1)} ${getX(p2)},${getY(p2)}`, fill: `rgb(${randNum1},${randNum2},${randNum2 + 20})`});
     canvas.appendChild(poly);
   }
 });
