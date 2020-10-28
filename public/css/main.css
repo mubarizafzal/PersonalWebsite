@@ -37,7 +37,7 @@ body {
   margin-bottom: 1rem;
   margin-top: 1rem;
   color: white;
-  background: linear-gradient(34deg, #339ec2 0%, #2d529d 100%);
+  background: linear-gradient(90deg, #3290b0 0%, #49649d 100%);
   padding: 2rem 4rem 2rem 4rem;
   width: 24rem;
   border-radius: 20px;
@@ -94,7 +94,7 @@ body {
   color: white;
   border-radius: 20px;
   box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
-  background: #b69e76; }
+  background: linear-gradient(90deg, #37483d, #7f8978); }
 
 .projects-card-intro {
   margin-left: 2rem;
