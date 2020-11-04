@@ -47,7 +47,7 @@ body {
 
 .main-content {
   font-family: Arial;
-  width: 25rem;
+  text-align: center;
   margin: auto;
   margin-top: 0rem;
   display: block;
@@ -56,24 +56,28 @@ body {
 .header {
   border-radius: 8px;
   padding: 4rem;
-  margin-top: 4rem;
   background: rgba(255, 255, 255, 0.87);
 }
 
 .desc {
-
   border-radius: 8px;
   padding: 4rem;
   margin-top: 4rem;
   background: rgba(255, 255, 255, 0.87);
 }
 
+.window {
+  width: 42rem;
+  margin: auto;
+}
 
 .left-collumn {
+  top: 0;
   background: linear-gradient(40deg, #4b5357 0%, rgb(41, 71, 94) 100%);
   height: 100vh;
   z-index: 10;
-  width: 8rem;
+  font-size: smaller;
+  width: 7rem;
   border-right: groove;
   border-color: white;
   text-align: center;
