@@ -1,0 +1,508 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Mubariz Afzal</title>
+    <link rel="stylesheet" href="assets/bootstrap.css"/>
+    <link rel="stylesheet" href="css/main.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href='https://fonts.googleapis.com/css?family=DM%20Sans' rel='stylesheet'>
+    <link href='https://fonts.googleapis.com/css?family=Lexend%20Deca' rel='stylesheet'>
+    <link href='https://fonts.googleapis.com/css?family=Fira%20Mono' rel='stylesheet'>
+    <link rel="icon" type="image/png" sizes="48x48" href="icon/favicon.ico">
+    <script src="assets/jquery-3.6.1.min.js"></script>
+  </head>
+  <body>
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-1"></div>
+        <div class="col-lg-10">
+          <div class="row justify-content-between name-row">
+            <div class="col-sm-8">
+              <span id="title-name">Mubariz Afzal</span>
+            </div>
+            <div class="col-sm-4" id="title-icons">
+              <a target='_blank' href="https://github.com/mubarizafzal"><i class="fa fa-github" style="font-size: 40px; color: black"></i></a>
+              <a target='_blank' href="https://www.linkedin.com/in/mubarizafzal"><i class="fa fa-linkedin-square" style="font-size: 40px; color: #0072b1"></i></a>
+            </div>
+          </div>
+          <div class="row" id="title-intro">
+            <div class="col-12">
+              Hey there, I'm Mubariz.
+            </div>
+            <div class="col-12">
+              I'm a Computer Science undergraduate student at Toronto Metropolitan University, graduating in 2023.
+            </div>
+            <div class="col-12">
+              I have 2 years of professional software development experience that has exposed me to different niches within the industry. Please have a look at some of the teams and projects I've worked on in the past below :)
+            </div>
+          </div>
+          <div class="row section-heading">
+            <div class="col-12">
+              <span class="">Experience</span>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-lg-5">
+              <div class="row slideshow align-items-center">
+                <div class="col-2">
+                  <i class="fa fa-angle-left slideshow-btn" onclick="previousImage(this, slideshowIndexes.slicerTrack)" style="font-size: 45px;"></i>
+                </div>
+                <div class="col-8">
+                  <div class="row align-items-center no-gutters">
+                    <div class="col-12 image-box" id="st-slideshow">
+                      <img src="img/tmu.jpg">
+                      <img src="img/next_to_poster.jpg" style="display: none">
+                      <img src="img/slicertrack.png" style="display: none">
+                      <img src="img/worms.png" style="display: none">
+                      <div class="row align-items-center no-gutters">
+                        <div class="col-12 dots">
+                          <span class="dot selected-dot" onclick="jumpToImage(this, slideshowIndexes.slicerTrack)"></span>
+                          <span class="dot" onclick="jumpToImage(this, slideshowIndexes.slicerTrack)"></span>
+                          <span class="dot" onclick="jumpToImage(this, slideshowIndexes.slicerTrack)"></span>
+                          <span class="dot" onclick="jumpToImage(this, slideshowIndexes.slicerTrack)"></span>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-2">
+                  <i class="fa fa-angle-right slideshow-btn" onclick="nextImage(this, slideshowIndexes.slicerTrack)" style="font-size: 45px;"></i>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-7 description">
+              <div class="row tags no-gutters">
+                <div class="col-auto">
+                  <span style="background: rgb(158, 172, 231); border: 1px solid rgb(56, 72, 107)">Research</span>
+                </div>
+                <div class="col-auto">
+                  <span style="background: rgb(156, 194, 224); border: 1px solid rgb(79, 102, 124)">GUI Dev</span>
+                </div>
+                <div class="col-auto">
+                  <span style="background: rgb(182, 209, 189); border: 1px solid rgb(106, 122, 107)">Python</span>
+                </div>
+                <div class="col-auto">
+                  <span style="background: rgb(216, 216, 216); border: 1px solid rgb(70, 70, 70)">Open Source Software</span>
+                </div>
+                <div class="col-auto">
+                  <span style="background: rgb(252, 246, 180); border: 1px solid rgb(143, 124, 64)">3D Slicer</span>
+                </div>
+              </div>
+              <div class="row description-title">
+                <div class="col-12">
+                  <i class="fa fa-user-o" aria-hidden="true"></i>
+                  <span>Software Developer</span>
+                </div>
+              </div>
+              <div class="row description-body">
+                <div class="col-12">
+                  <p>
+                    At the <u>Laboratory for Translational Medicine</u> I was tasked with developing a target-tracking Python extension for 3D Slicer. The extension's core capability was to allows users to easily and dynamically track an ROI, defined by a 3D segmentation, as it moves throughout a set of time-series 2D MRI images.
+                  </p>
+                  <p>
+                    Another translational research project I was assigned to was the technical integration of a <i>C. Elegans</i> worm detection algorithm using YOLOv5.
+                  </p>                  
+                </div>
+              </div>
+              <div class="row align-items-center description-links">
+                <div class="col-auto">
+                  <a target='_blank' href="https://github.com/laboratory-for-translational-medicine/SlicerTrack/pulls?q=is%3Apr+author%3Amubarizafzal"><i class="fa fa-github" style="font-size: 35px"></i></a>
+                </div>
+                <div class="col-auto">
+                  <a target='_blank' href="assets/ISBI 2023 - One Page Abstract.pdf"><i class="fa fa-file-pdf-o" style="font-size: 30px; vertical-align: text-bottom"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <br>
+          <div class="row">
+            <div class="col-lg-5">
+              <div class="row slideshow align-items-center">
+                <div class="col-2">
+                  <i class="fa fa-angle-left slideshow-btn" onclick="previousImage(this, slideshowIndexes.ibm)" style="font-size: 45px;"></i>
+                </div>
+                <div class="col-8">
+                  <div class="row align-items-center no-gutters">
+                    <div class="col-12 image-box" id="ibm-slideshow">
+                      <img src="img/IBM_logo.png">
+                      <img src="img/ibm_shirt.jpg" style="display: none">
+                      <div class="row align-items-center no-gutters">
+                        <div class="col-12 dots">
+                          <span class="dot selected-dot" onclick="jumpToImage(this, slideshowIndexes.ibm)"></span>
+                          <span class="dot" onclick="jumpToImage(this, slideshowIndexes.ibm)"></span>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-2">
+                  <i class="fa fa-angle-right slideshow-btn" onclick="nextImage(this, slideshowIndexes.ibm)" style="font-size: 45px;"></i>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-7 description">
+              <div class="row tags no-gutters">
+                <div class="col-auto">
+                  <span style="background: #FAD7AC; border: 1px solid #B46504">Compilers</span>
+                </div>
+                <div class="col-auto">
+                  <span style="background: rgb(182, 209, 189); border: 1px solid rgb(106, 122, 107)">Python</span>
+                </div>
+                <div class="col-auto">
+                  <span style="background: rgb(236, 177, 177); border: 1px solid rgb(117, 83, 83)">Bash</span>
+                </div>
+                <div class="col-auto">
+                  <span style="background: rgb(245, 191, 218); border: 1px solid rgb(129, 81, 104)">C++</span>
+                </div>
+                <div class="col-auto">
+                  <span style="background: rgb(216, 216, 216); border: 1px solid rgb(70, 70, 70)">Open Source Software</span>
+                </div>
+                <div class="col-auto">
+                  <span style="background: #becbd4; border: 1px solid #23445D">LLVM</span>
+                </div>
+              </div>
+              <div class="row description-title">
+                <div class="col-12">
+                  <i class="fa fa-user-o" aria-hidden="true"></i>
+                  <span>Compiler Developer Intern</span>
+                </div>
+              </div>
+              <div class="row description-body">
+                <div class="col-12">
+                  During my internship at <u>IBM Canada</u> I joined the C/C++ on z/OS compiler backend team. I had the opportunity to take ownership of improving and maintaining the compiler performance measurement pipeline. I was also able to contribute to the compiler backend with a fix related to how 32-bit floating point variadic arguments are allocated to their registers, according to the XPLINK64 calling convention.
+                </div>
+              </div>
+              <div class="row align-items-center description-links">
+                <div class="col-auto">
+                  <a target='_blank' href="https://reviews.llvm.org/D129853"><img src="img/phabricator_logo.png" style="width: 35px"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="row section-heading">
+            <div class="col-12">
+              <span class="">Projects</span>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-lg-5">
+              <div class="row slideshow align-items-center">
+                <div class="col-2">
+                  <i class="fa fa-angle-left slideshow-btn" onclick="previousImage(this, slideshowIndexes.greenDelivery)" style="font-size: 45px;"></i>
+                </div>
+                <div class="col-8">
+                  <div class="row align-items-center no-gutters">
+                    <div class="col-12 image-box" id="jm-slideshow">
+                      <img src="img/gd_main.png">
+                      <img src="img/gd_cart.png" style="display: none">
+                      <img src="img/gd_map.png" style="display: none">
+                      <div class="row align-items-center no-gutters">
+                        <div class="col-12 dots">
+                          <span class="dot selected-dot" onclick="jumpToImage(this, slideshowIndexes.greenDelivery)"></span>
+                          <span class="dot" onclick="jumpToImage(this, slideshowIndexes.greenDelivery)"></span>
+                          <span class="dot" onclick="jumpToImage(this, slideshowIndexes.greenDelivery)"></span>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-2">
+                  <i class="fa fa-angle-right slideshow-btn" onclick="nextImage(this, slideshowIndexes.greenDelivery)" style="font-size: 45px;"></i>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-7 description">
+              <div class="row tags no-gutters">
+                <div class="col-auto">
+                  <span style="background: rgb(211, 204, 250); border: 1px solid rgb(67, 56, 107)">PHP</span>
+                </div>
+                <div class="col-auto">
+                  <span style="background: #d2e2fa; border: 1px solid #5979a7">HTML</span>
+                </div>
+                <div class="col-auto">
+                  <span style="background: rgb(228, 225, 208); border: 1px solid rgb(122, 119, 106)">CSS</span>
+                </div>
+                <div class="col-auto">
+                  <span style="background: rgb(231, 201, 193); border: 1px solid rgb(116, 64, 48)">JavaScript</span>
+                </div>
+                <div class="col-auto">
+                  <span style="background: rgb(199, 202, 226); border: 1px solid rgb(32, 42, 128)">Google Maps API</span>
+                </div>
+                <div class="col-auto">
+                  <span style="background: rgb(210, 241, 212); border: 1px solid rgb(31, 85, 38)">MySQL</span>
+                </div>
+                <div class="col-auto">
+                  <span style="background: rgb(240, 225, 140); border: 1px solid rgb(128, 118, 32)">Nginx</span>
+                </div>
+              </div>
+              <div class="row description-title">
+                <div class="col-12">
+                  <i class="fa fa-file-code-o" aria-hidden="true"></i>
+                  <span>Green Delivery E-Commerce</span>
+                </div>
+              </div>
+              <div class="row description-body">
+                <div class="col-12">
+                  Green Delivery E-Commerce was the course project for CPS630: Web Applications. Among the items I was responsible for in this project were the development of the PHP backend, Google Maps API integration, and shopping cart functionalities.
+                </div>
+              </div>
+              <div class="row align-items-center description-links">
+                <div class="col-auto">
+                  <a target='_blank' href="https://github.com/mubarizafzal/CPS630-W2023-G21/tree/main/Project"><i class="fa fa-github" style="font-size: 35px"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <br>
+          <div class="row">
+            <div class="col-lg-5">
+              <div class="row slideshow align-items-center">
+                <div class="col-2">
+                  <i class="fa fa-angle-left slideshow-btn" onclick="previousImage(this, slideshowIndexes.jummahConnections)" style="font-size: 45px;"></i>
+                </div>
+                <div class="col-8">
+                  <div class="row align-items-center no-gutters">
+                    <div class="col-12 image-box" id="jm-slideshow">
+                      <img src="img/jummah_site.png">
+                      <img src="img/jummah_wireframe.png" style="display: none">
+                      <img src="img/jummah_map.png" style="display: none">
+                      <div class="row align-items-center no-gutters">
+                        <div class="col-12 dots">
+                          <span class="dot selected-dot" onclick="jumpToImage(this, slideshowIndexes.jummahConnections)"></span>
+                          <span class="dot" onclick="jumpToImage(this, slideshowIndexes.jummahConnections)"></span>
+                          <span class="dot" onclick="jumpToImage(this, slideshowIndexes.jummahConnections)"></span>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-2">
+                  <i class="fa fa-angle-right slideshow-btn" onclick="nextImage(this, slideshowIndexes.jummahConnections)" style="font-size: 45px;"></i>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-7 description">
+              <div class="row tags no-gutters">
+                <div class="col-auto">
+                  <span style="background: rgb(235, 209, 216); border: 1px solid rgb(124, 79, 109)">Hackathon</span>
+                </div>
+                <div class="col-auto">
+                  <span style="background: #d2e2fa; border: 1px solid #5979a7">HTML</span>
+                </div>
+                <div class="col-auto">
+                  <span style="background: rgb(228, 225, 208); border: 1px solid rgb(122, 119, 106)">CSS</span>
+                </div>
+                <div class="col-auto">
+                  <span style="background: rgb(231, 201, 193); border: 1px solid rgb(116, 64, 48)">JavaScript</span>
+                </div>
+                <div class="col-auto">
+                  <span style="background: rgb(199, 202, 226); border: 1px solid rgb(32, 42, 128)">Google Maps API</span>
+                </div>
+                <div class="col-auto">
+                  <span style="background: rgb(181, 243, 217); border: 1px solid rgb(31, 136, 92)">Miro</span>
+                </div>
+              </div>
+              <div class="row description-title">
+                <div class="col-12">
+                  <i class="fa fa-file-code-o" aria-hidden="true"></i>
+                  <span>Jummah Connections</span>
+                </div>
+              </div>
+              <div class="row description-body">
+                <div class="col-12">
+                  A hackathon project built for UmmaHacks along with teammates from San Diego. We built a carpooling webapp that connects Muslims to their local Jummah congregation, allowing them to both offer rides, as well as discover carpooling opportunities within their area.
+                </div>
+              </div>
+              <div class="row align-items-center description-links">
+                <div class="col-auto">
+                  <a target='_blank' href="https://github.com/SaadAsif1/Jummah-Carpool"><i class="fa fa-github" style="font-size: 35px"></i></a>
+                </div>
+                <div class="col-auto">
+                  <a target='_blank' href="https://devpost.com/software/jummah-carpool"><img src="img/devpost.png" style="width: 36px"></img></a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <br>
+          <div class="row">
+            <div class="col-lg-5">
+              <div class="row slideshow align-items-center">
+                <div class="col-2">
+                </div>
+                <div class="col-8">
+                  <div class="row align-items-center no-gutters">
+                    <div class="col-12 image-box" id="jm-slideshow">
+                      <img src="img/Luddo.gif">
+                      <div class="row align-items-center no-gutters">
+                        <div class="col-12 dots">
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-2">
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-7 description">
+              <div class="row tags no-gutters">
+                <div class="col-auto">
+                  <span style="background: rgb(245, 191, 218); border: 1px solid rgb(129, 81, 104)">C++</span>
+                </div>
+                <div class="col-auto">
+                  <span style="background: rgb(156, 194, 224); border: 1px solid rgb(79, 102, 124)">GUI Dev</span>
+                </div>
+                <div class="col-auto">
+                  <span style="background: rgb(186, 238, 240); border: 1px solid rgb(36, 108, 117)">FLTK</span>
+                </div>
+                <div class="col-auto">
+                  <span style="background: rgb(236, 236, 236); border: 1px solid rgb(95, 95, 95)">Makefile</span>
+                </div>
+              </div>
+              <div class="row description-title">
+                <div class="col-12">
+                  <i class="fa fa-file-code-o" aria-hidden="true"></i>
+                  <span>Luddo</span>
+                </div>
+              </div>
+              <div class="row description-body">
+                <div class="col-12">
+                  Luddo was a side project to explore GUI development with C++. It is a South Asian board game, following a simplified ruleset, built with the windowing toolkit FLTK.
+                </div>
+              </div>
+              <div class="row align-items-center description-links">
+                <div class="col-auto">
+                  <a target='_blank' href="https://github.com/mubarizafzal/Luddo"><i class="fa fa-github" style="font-size: 35px"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <br>
+          <div class="row">
+            <div class="col-lg-5">
+              <div class="row slideshow align-items-center">
+                <div class="col-2">
+                </div>
+                <div class="col-8">
+                  <div class="row align-items-center no-gutters">
+                    <div class="col-12 image-box" id="jm-slideshow">
+                      <img src="img/2048.gif">
+                      <div class="row align-items-center no-gutters">
+                        <div class="col-12 dots">
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-2">
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-7 description">
+              <div class="row tags no-gutters">
+                <div class="col-auto">
+                  <span style="background: #fac08b; border: 1px solid #81512a">Java</span>
+                </div>
+                <div class="col-auto">
+                  <span style="background: rgb(156, 194, 224); border: 1px solid rgb(79, 102, 124)">GUI Dev</span>
+                </div>
+                <div class="col-auto">
+                  <span style="background: #b9dfb7; border: 1px solid #648a4e">OOP</span>
+                </div>
+              </div>
+              <div class="row description-title">
+                <div class="col-12">
+                  <i class="fa fa-file-code-o" aria-hidden="true"></i>
+                  <span>5x5 2048</span>
+                </div>
+              </div>
+              <div class="row description-body">
+                <div class="col-12">
+                  A 5x5 version of the popular mobile game '2048', built with Java using its AWT and Swing libraries.
+                </div>
+              </div>
+              <div class="row align-items-center description-links">
+                <div class="col-auto">
+                  <a target='_blank' href="https://github.com/mubarizafzal/2048"><i class="fa fa-github" style="font-size: 35px"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <br>
+        </div>
+        <div class="col-sm-1"></div>
+      </div>
+    </div>
+    <script>
+      let indexesArray = [0, 0 ,0, 0];
+      
+      const slideshowIndexes = {
+        slicerTrack: 0,
+        ibm: 1,
+        jummahConnections: 2,
+        greenDelivery: 3
+      };
+
+      function nextImage(buttonElem, slideshowIndex) {
+        let imageBox = buttonElem.closest(".slideshow").getElementsByClassName("image-box")[0];
+        let images = imageBox.getElementsByTagName('img');
+        let dots = imageBox.getElementsByClassName('dots')[0].children;
+        let currentImageIndex = indexesArray[slideshowIndex];
+        let newImageIndex = circularMod(currentImageIndex + 1, images.length);
+        
+        $(images[currentImageIndex]).fadeOut(400);
+        $(images[newImageIndex]).fadeIn(500);
+        dots[currentImageIndex].classList.remove("selected-dot");
+        dots[newImageIndex].classList.add("selected-dot");
+
+        indexesArray[slideshowIndex] = newImageIndex;
+      }
+
+      function previousImage(buttonElem, slideshowIndex) {
+        let imageBox = buttonElem.closest(".slideshow").getElementsByClassName("image-box")[0];
+        let images = imageBox.getElementsByTagName('img');
+        let dots = imageBox.getElementsByClassName('dots')[0].children;
+        let currentImageIndex = indexesArray[slideshowIndex];
+        let newImageIndex = circularMod(currentImageIndex - 1, images.length);
+        
+        $(images[currentImageIndex]).fadeOut(400);
+        $(images[newImageIndex]).fadeIn(500);
+        dots[currentImageIndex].classList.remove("selected-dot");
+        dots[newImageIndex].classList.add("selected-dot");
+
+        indexesArray[slideshowIndex] = newImageIndex;
+      }
+
+      function jumpToImage(buttonElem, slideshowIndex) {
+        let imageBox = buttonElem.closest(".slideshow").getElementsByClassName("image-box")[0];
+        let images = imageBox.getElementsByTagName('img');
+        let dots = imageBox.getElementsByClassName('dots')[0].children;
+        let newImageIndex = null;
+        for (let i = 0; i < dots.length; i++) {
+          if (dots[i] == buttonElem) {
+            newImageIndex = i;
+            break;
+          }
+        }
+        let currentImageIndex = indexesArray[slideshowIndex];
+        
+        $(images[currentImageIndex]).fadeOut(400);
+        $(images[newImageIndex]).fadeIn(500);
+        dots[currentImageIndex].classList.remove("selected-dot");
+        dots[newImageIndex].classList.add("selected-dot");
+
+        indexesArray[slideshowIndex] = newImageIndex;
+      }
+
+      function circularMod (dividend, divisor) {
+        let stdModResult = dividend % divisor;
+        if (dividend < 0 && stdModResult != 0) {
+          return stdModResult + divisor;
+        } else {
+          return stdModResult;
+        }
+      }
+
+    </script>
+  </body>
+</html>
