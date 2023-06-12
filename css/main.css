@@ -52,6 +52,7 @@
   box-shadow: 5px 5px rgb(186, 199, 206);
   border: 1px solid black;
   position: absolute;
+  left: 0px;
 }
 
 .image-box {
@@ -72,6 +73,7 @@
 
 .dots {
   position: absolute;
+  left: 0px;
   color: white;
   top: 90%;
   width: 100%;
@@ -125,6 +127,7 @@
 
 .tags .col-auto {
   margin-top: 10px;
+  padding: 0px
 }
 
 .description-title {
